@@ -42,7 +42,7 @@ yay -S gnome-keyring jq polkit-kde-agent qt6-base qt5-base xdg-desktop-portal-hy
 #Screenshot
 yay -S lua maim slurp wl-clipboard
 
-
+sudo systemctl enable --now sddm 
 
 
 #Copy fonts
