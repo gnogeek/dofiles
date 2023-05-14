@@ -19,6 +19,11 @@
 
 cp -r .config/ $HOME/.config/
 
+mkdir $HOME/.fonts
+
+cp -r fonts/* $HOME/.fonts/
+
+
 #Main Packages
 yay -S --noconfirm hyprland nano openssh pacman-contrib sddm-git waybar-hyprland-git
 
