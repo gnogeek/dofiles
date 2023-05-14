@@ -20,27 +20,27 @@
 cp -r .config/ $HOME/.config/
 
 #Main Packages
-yay -S hyprland nano openssh pacman-contrib sddm-git waybar-hyprland-git
+yay -S --noconfirm hyprland nano openssh pacman-contrib sddm-git waybar-hyprland-git
 
 #Bar Tools
-yay -S rofi swayidle swaylock-effects swww  waybar-updates 
+yay -S --noconfirm rofi swayidle swaylock-effects swww  waybar-updates 
 #Install Fonts
-yay -S adobe-source-code-pro-fonts ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ttf-jetbrains-mono  
+yay -S --noconfirm adobe-source-code-pro-fonts ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ttf-jetbrains-mono  
 
 #Installaudio components 
-yay -S pipewire wireplumber pavucontrol pipewire-audio pipewire-pulse pipewire-alsa
+yay -S --noconfirm pipewire wireplumber pavucontrol pipewire-audio pipewire-pulse pipewire-alsa
 
 #Bluetooth components 
-yay -S bluez bluez-utils blueman 
+yay -S --noconfirm bluez bluez-utils blueman 
 
 #File manager
-yay -S thunar gvfs thunar-archive-plugin file-roler thunar-media-tags-plugin thunar-volman thunar-shares-plugin tumbler gvfs-mtp 
+yay -S --noconfirm thunar gvfs thunar-archive-plugin file-roller thunar-media-tags-plugin thunar-volman thunar-shares-plugin tumbler gvfs-mtp 
 
 #Other packages
-yay -S gnome-keyring jq polkit-kde-agent qt6-base qt5-base xdg-desktop-portal-hyprland
+yay -S --noconfirm gnome-keyring jq polkit-kde-agent qt6-base qt5-base xdg-desktop-portal-hyprland
 
 #Screenshot
-yay -S lua maim slurp wl-clipboard
+yay -S --noconfirm lua maim slurp wl-clipboard
 
 sudo systemctl enable --now sddm 
 
