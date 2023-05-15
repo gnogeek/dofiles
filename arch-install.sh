@@ -153,9 +153,7 @@ archroot() {
   cd .. && rm -R yay
   sed -i '/^#Color/s/#//' /etc/pacman.conf # Uncomment line with sed
 
-    # Install some software. 
-  pacman -S --needed --noconfirm firefox konsole tmux man
-  
+    # Install some software.   
   # Install boot manager.   
  bootctl install
   tee -a /boot/loader/loader.conf <<EOF
